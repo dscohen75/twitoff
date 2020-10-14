@@ -11,7 +11,6 @@ TWITTER_USERS = ['calebhicks','elonmusk','rrherr','SteveMartinToGO',
                 'common_squirrel','KenJennngs','conanobrien',
                 'big_ben_clock','IAM_SHAKESPEARE']
 
-#TODO don't have raw secrets in the code, move to .env!
 TWITTER_API_KEY = getenv('TWITTER_API_KEY')
 TWITTER_API_KEY_SECRET = getenv('TWITTER_API_KEY_SECRET')
 TWITTER_AUTH = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_KEY_SECRET)
