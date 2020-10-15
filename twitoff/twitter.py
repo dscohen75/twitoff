@@ -6,10 +6,10 @@ from .models import DB, Tweet, User
 from os import getenv
 
 
-TWITTER_USERS = ['calebhicks','elonmusk','rrherr','SteveMartinToGO',
-                'alyankovic','nasa','sadserver','jkhowland','austen',
-                'common_squirrel','KenJennngs','conanobrien',
-                'big_ben_clock','IAM_SHAKESPEARE']
+# TWITTER_USERS = ['calebhicks','elonmusk','rrherr','SteveMartinToGO',
+#                 'alyankovic','nasa','sadserver','jkhowland','austen',
+#                 'common_squirrel','KenJennngs','conanobrien',
+#                 'big_ben_clock','IAM_SHAKESPEARE']
 
 TWITTER_API_KEY = getenv('TWITTER_API_KEY')
 TWITTER_API_KEY_SECRET = getenv('TWITTER_API_KEY_SECRET')
